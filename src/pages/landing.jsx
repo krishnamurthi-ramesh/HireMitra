@@ -423,11 +423,6 @@ const LandingPage = () => {
           </Link>
         </div>
         <div className="flex flex-wrap justify-center gap-4 mt-4">
-          <Link to="/career">
-            <Button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 text-lg rounded-xl">
-              Skill Up
-            </Button>
-          </Link>
           <Link to="/mentors">
             <Button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 text-lg rounded-xl">
               Guidance & Referrals
