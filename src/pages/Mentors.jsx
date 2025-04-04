@@ -221,7 +221,7 @@ const Mentors = () => {
                 <img
                   src={imageUrl}
                   alt={mentor.name}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-48 object-contain"
                   onError={(e) => (e.target.src = "https://via.placeholder.com/150")}
                 />
                 {/* Mentor Details */}
