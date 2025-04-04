@@ -505,14 +505,14 @@ const LandingPage = () => {
             Have questions? Reach out to us, and we'll get back to you soon.
           </p>
           <form action="https://getform.io/f/bmdkjqoa" method="POST" className="bg-white p-8 rounded-lg shadow-xl mt-6 max-w-md mx-auto">
-            <label className="block text-gray-700 font-medium mb-1">Full Name</label>
-            <input type="text" name="name" className="w-full p-3 border rounded-lg mb-3 focus:ring-2 focus:ring-blue-400" placeholder="Your Name" required />
+            <label className="block text-gray-700 font-medium mb-1 ">Full Name</label>
+            <input type="text" name="name" className="w-full p-3 border rounded-lg mb-3 focus:ring-2 text-black focus:ring-blue-400" placeholder="Your Name" required />
             
             <label className="block text-gray-700 font-medium mb-1">Email</label>
-            <input type="email" name="email" className="w-full p-3 border rounded-lg mb-3 focus:ring-2 focus:ring-blue-400" placeholder="Your Email" required />
+            <input type="email" name="email" className="w-full p-3 border rounded-lg mb-3 focus:ring-2 text-black focus:ring-blue-400" placeholder="Your Email" required />
             
             <label className="block text-gray-700 font-medium mb-1">Message</label>
-            <textarea name="message" className="w-full p-3 border rounded-lg mb-3 focus:ring-2 focus:ring-blue-400" placeholder="Your Message" required></textarea>
+            <textarea name="message" className="w-full p-3 border rounded-lg mb-3 focus:ring-2 text-black focus:ring-blue-400" placeholder="Your Message" required></textarea>
             
             <button type="submit" className="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-800 transition-all mt-4">Send</button>
           </form>
