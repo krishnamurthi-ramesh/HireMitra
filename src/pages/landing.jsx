@@ -496,8 +496,40 @@ const LandingPage = () => {
       </Accordion>
       <section className="py-10">
         <Testimonials reviews={reviews} />
-        <Contact />
       </section>
+
+      <section id="contact" className="bg-black py-16 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-bold text-white">Contact Us</h2>
+          <p className="text-white mt-2 text-lg">
+            Have questions? Reach out to us, and we'll get back to you soon.
+          </p>
+          <form action="https://getform.io/f/bmdkjqoa" method="POST" className="bg-white p-8 rounded-lg shadow-xl mt-6 max-w-md mx-auto">
+            <label className="block text-gray-700 font-medium mb-1">Full Name</label>
+            <input type="text" name="name" className="w-full p-3 border rounded-lg mb-3 focus:ring-2 focus:ring-blue-400" placeholder="Your Name" required />
+            
+            <label className="block text-gray-700 font-medium mb-1">Email</label>
+            <input type="email" name="email" className="w-full p-3 border rounded-lg mb-3 focus:ring-2 focus:ring-blue-400" placeholder="Your Email" required />
+            
+            <label className="block text-gray-700 font-medium mb-1">Message</label>
+            <textarea name="message" className="w-full p-3 border rounded-lg mb-3 focus:ring-2 focus:ring-blue-400" placeholder="Your Message" required></textarea>
+            
+            <button type="submit" className="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-800 transition-all mt-4">Send</button>
+          </form>
+
+          <div className="mt-6 text-white">
+            <p>
+              Email: <a href="mailto:contact@yourwebsite.com" className="text-blue-500">contact@Hiremitra.com</a>
+            </p>
+            <p>
+              Phone: <a href="tel:+1234567890" className="text-blue-500">+91-9635348621</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+        {/* <Contact /> */}
       
     </main>
   );
