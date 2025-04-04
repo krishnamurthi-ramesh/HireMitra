@@ -128,14 +128,14 @@ const Testimonials = ({ reviews }) => {
             id: 1,
             name: "John Doe",
             company: "Google",
-            feedback: "This platform helped me connect with amazing mentors!",
+            feedback: "Great experience and excellent support throughout the process. The team was always responsive and ready to help with any queries. Their dedication and guidance made the entire journey smooth and stress-free. I genuinely felt supported every step of the way.",
             image: "https://via.placeholder.com/150",
           },
           {
             id: 2,
             name: "Jane Smith",
             company: "Amazon",
-            feedback: "Great experience! The mentors are very knowledgeable.",
+            feedback: "This platform exceeded my expectations!The content was clear, practical, and easy to follow.It gave me the confidence to achieve my goals.",
             image: "https://via.placeholder.com/150",
           },
           {
@@ -143,14 +143,14 @@ const Testimonials = ({ reviews }) => {
             name: "David Lee",
             company: "Microsoft",
             feedback:
-              "I couldn't be happier with the opportunities this platform provides.",
+             "Amazing experience from start to finish. The support team was prompt and helpful throughout.I would highly recommend it to anyone looking to grow.",
             image: "https://via.placeholder.com/150",
           },
           {
             id: 4,
             name: "Alice Johnson",
             company: "Apple",
-            feedback: "Amazing results and wonderful support.",
+            feedback: "Truly a game-changer for my career. I learned so much in a short span of time.Thank you for making this journey so worthwhile!",
             image: "https://via.placeholder.com/150",
           },
           {

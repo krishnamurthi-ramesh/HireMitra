@@ -340,7 +340,7 @@ const LandingPage = () => {
       id: 1,
       name: "John Doe",
       company: "Google",
-      feedback: "This platform truly helped me land my dream job!",
+      feedback: "This platform truly helped me land my dream job! The resources were incredibly helpful, and the guidance I received made all the difference. I gained the confidence and skills I needed to succeed—highly recommended!",
       image:
         "https://tse2.mm.bing.net/th?id=OIP.NqY3rNMnx2NXYo3KJfg43gHaHa&rs=1&pid=ImgDetMain",
     },
@@ -349,7 +349,7 @@ const LandingPage = () => {
       name: "Jane Smith",
       company: "Amazon",
       feedback:
-        "Great experience and excellent support throughout the process.",
+        "Great experience and excellent support throughout the process. The team was always responsive and ready to help with any queries. Their dedication and guidance made the entire journey smooth and stress-free. I genuinely felt supported every step of the way.",
       image:
         "https://tse2.mm.bing.net/th?id=OIP.XGhgkK8C_IYHjzdWalWQ4QHaLE&rs=1&pid=ImgDetMain",
     },
@@ -358,7 +358,7 @@ const LandingPage = () => {
       name: "David Lee",
       company: "Facebook",
       feedback:
-        "I couldn't be happier with the opportunities this platform provides.",
+        "Truly a game-changer for my career.I learned so much in a short span of time.Thank you for making this journey so worthwhile!. Their dedication and guidance made the entire journey smooth and stress-free. I genuinely felt supported every step of the way.",
       image: "https://iproedu.in/wp-content/uploads/2024/08/Pranav-Mate.png",
     },
     {
@@ -366,7 +366,7 @@ const LandingPage = () => {
       name: "Ben Lee",
       company: "Flipkart",
       feedback:
-        "I couldn't be happier with the opportunities this platform provides.",
+        "I couldn't be happier with the opportunities this platform provides.The guidance and learning materials were top-notch.I felt supported and motivated throughout the journey.I’m truly grateful for this incredible experience!",
       image:
         "https://profile-images.xing.com/images/313d09e1e0c03c33d1c6f345415d4c30-1/manish-pittappillil-shibu.1024x1024.jpg",
     },
@@ -375,7 +375,7 @@ const LandingPage = () => {
       name: "Sam Baraon",
       company: "Cisco",
       feedback:
-        "I couldn't be happier with the opportunities this platform provides.",
+        "I couldn't be happier with the opportunities this platform provides.The guidance and learning materials were top-notch.I felt supported and motivated throughout the journey.I’m truly grateful for this incredible experience!",
       image: "https://iproedu.in/wp-content/uploads/2024/08/Pranav-Mate.png",
     },
     {
@@ -383,7 +383,7 @@ const LandingPage = () => {
       name: "Anurag ",
       company: "Meta",
       feedback:
-        "I couldn't be happier with the opportunities this platform provides.",
+        "I couldn't be happier with the opportunities this platform provides.This platform was a turning point in my career.The guidance and learning materials were top-notch.I felt supported and motivated throughout the journey.I’m truly grateful for this incredible experience!",
       image:
         "https://webportal.easternuni.edu.bd/student/profile/student_images/163400034.jpg",
     },
@@ -392,7 +392,7 @@ const LandingPage = () => {
       name: "Sharok ",
       company: "Apple",
       feedback:
-        "I couldn't be happier with the opportunities this platform provides.",
+        "I couldn't be happier with the opportunities this platform provides.The guidance and learning materials were top-notch.I felt supported and motivated throughout the journey.I’m truly grateful for this incredible experience!",
       image:
         "https://fmsbd.com/wp-content/uploads/2020/07/S.M.-ZAHIRUL-ISLAM-JOHN-SR.-EXECUTIVE-OPERATION.jpeg",
     },
@@ -498,7 +498,7 @@ const LandingPage = () => {
         <Testimonials reviews={reviews} />
       </section>
 
-      <section id="contact" className="bg-black py-16 px-6">
+      {/* <section id="contact" className="bg-black py-16 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white">Contact Us</h2>
           <p className="text-white mt-2 text-lg">
@@ -526,7 +526,126 @@ const LandingPage = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
+      {/* <section id="contact" className="bg-gradient-to-b from-black to-gray-900 py-20 px-6">
+  <div className="max-w-5xl mx-auto text-center">
+    <h2 className="text-5xl font-extrabold text-white mb-4">Contact Us</h2>
+    <p className="text-gray-300 text-lg mb-10">
+      Have any questions? We'd love to hear from you.
+    </p>
+
+    <form action="https://getform.io/f/bmdkjqoa" method="POST" className="bg-white/90 backdrop-blur-lg p-10 rounded-2xl shadow-2xl max-w-xl mx-auto transition-all duration-300">
+      <div className="mb-6 text-left">
+        <label className="block text-gray-800 font-semibold mb-2">Full Name</label>
+        <input 
+          type="text" 
+          name="name" 
+          className="w-full p-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition" 
+          placeholder="Enter your name" 
+          required 
+        />
+      </div>
+
+      <div className="mb-6 text-left">
+        <label className="block text-gray-800 font-semibold mb-2">Email Address</label>
+        <input 
+          type="email" 
+          name="email" 
+          className="w-full p-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition" 
+          placeholder="Enter your email" 
+          required 
+        />
+      </div>
+
+      <div className="mb-6 text-left">
+        <label className="block text-gray-800 font-semibold mb-2">Message</label>
+        <textarea 
+          name="message" 
+          rows="5" 
+          className="w-full p-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition resize-none" 
+          placeholder="Write your message..." 
+          required
+        ></textarea>
+      </div>
+
+      <button 
+        type="submit" 
+        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl transition duration-300"
+      >
+        Send Message
+      </button>
+    </form>
+
+    <div className="mt-10 text-white space-y-3">
+      <p className="flex justify-center items-center gap-2">
+        📧 Email: <a href="mailto:contact@Hiremitra.com" className="text-blue-400 hover:underline">contact@Hiremitra.com</a>
+      </p>
+      <p className="flex justify-center items-center gap-2">
+        📞 Phone: <a href="tel:+919635348621" className="text-blue-400 hover:underline">+91-9635348621</a>
+      </p>
+    </div>
+  </div>
+</section> */}
+
+<section id="contact" className="bg-[#020817] py-20 px-6">
+  <div className="max-w-5xl mx-auto text-center">
+    <h2 className="text-5xl font-extrabold text-white mb-4">Contact Us</h2>
+    <p className="text-gray-300 text-lg mb-10">
+      Have any questions? We'd love to hear from you.
+    </p>
+
+    <form action="https://getform.io/f/bmdkjqoa" method="POST" className="bg-white/90 backdrop-blur-lg p-10 rounded-2xl shadow-2xl max-w-xl mx-auto transition-all duration-300">
+      <div className="mb-6 text-left">
+        <label className="block text-gray-800 font-semibold mb-2">Full Name</label>
+        <input 
+          type="text" 
+          name="name" 
+          className="w-full p-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition text-black" 
+          placeholder="Enter your name" 
+          required 
+        />
+      </div>
+
+      <div className="mb-6 text-left">
+        <label className="block text-gray-800 font-semibold mb-2">Email Address</label>
+        <input 
+          type="email" 
+          name="email" 
+          className="w-full p-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition text-black" 
+          placeholder="Enter your email" 
+          required 
+        />
+      </div>
+
+      <div className="mb-6 text-left">
+        <label className="block text-gray-800 font-semibold mb-2">Message</label>
+        <textarea 
+          name="message" 
+          rows="5" 
+          className="w-full p-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition resize-none text-black" 
+          placeholder="Write your message..." 
+          required
+        ></textarea>
+      </div>
+
+      <button 
+        type="submit" 
+        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl transition duration-300"
+      >
+        Send Message
+      </button>
+    </form>
+
+    <div className="mt-10 text-white space-y-3">
+      <p className="flex justify-center items-center gap-2">
+        📧 Email: <a href="mailto:contact@Hiremitra.com" className="text-blue-400 hover:underline">contact@Hiremitra.com</a>
+      </p>
+      <p className="flex justify-center items-center gap-2">
+        📞 Phone: <a href="tel:+919635348621" className="text-blue-400 hover:underline">+91-9635348621</a>
+      </p>
+    </div>
+  </div>
+</section>
 
 
         {/* <Contact /> */}
