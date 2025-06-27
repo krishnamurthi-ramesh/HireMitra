@@ -121,6 +121,8 @@
 🔗 [LinkedIn](https://www.linkedin.com/in/anurag-prajapati-026918268/)  
 🔗 [Portfolio](https://personal-portfolio-jwkj.onrender.com)
 
+**Aman Chourasia**
+
 ---
 
 > Made with ❤️ to simplify hiring and empower job seekers.
