@@ -123,6 +123,10 @@
 
 **Aman Chourasia**
 
+**Krishnamurthi**
+Public profile & URL
+[LinkedIn](www.linkedin.com/in/krishna9003762619murthi)
+
 ---
 
 > Made with ❤️ to simplify hiring and empower job seekers.
