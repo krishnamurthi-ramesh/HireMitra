@@ -123,8 +123,11 @@
 
 **Aman Chourasia**
 📧 gettoknowaman@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/aman-chourasia-9068472a1)  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/aman-chourasia-9068472a1)
+
 🔗 [Portfolio](https://amanportfolioiiitk.netlify.app)
+
 
 **Krishnamurthi**
 Public profile & URL
